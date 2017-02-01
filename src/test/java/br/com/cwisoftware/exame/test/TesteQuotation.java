@@ -9,7 +9,7 @@ public class TesteQuotation {
 	public static void main(String[]args){
 		
 		CurrencyQuotationController controller = new CurrencyQuotationController();
-		BigDecimal resultado = controller.currencyQuotation("USD", "EUR", 100.00, "30/01/2017");
+		BigDecimal resultado = controller.currencyQuotation("USD", "EUR", 100.00, "31/01/2017");
 		System.out.println(resultado);
 	
 	}
