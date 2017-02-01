@@ -164,7 +164,7 @@ public class BCBGovCurrencyQuotationService implements CurrencyQuotationService{
 	
 	
 	/**
-	 * Obtem dia útil anterior.
+	 * Obtem dia útil posterior.
 	 */
 	private void getPrecedingDay(){
 		this.quotationDate.add(Calendar.DATE, -1);
